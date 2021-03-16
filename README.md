@@ -28,6 +28,7 @@ yarn install
 ```
 
 🔏 Edit your smart contract `Staker.sol` in `packages/hardhat/contracts`
+🔏 Edit .env in `packages/react-app`
 
 ---
 
