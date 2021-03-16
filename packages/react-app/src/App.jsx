@@ -286,6 +286,23 @@ function App(props) {
           </div>
 
 
+<<<<<<< HEAD
+=======
+            <div style={{ padding: 8 }}>
+              <h3> Restart Staking</h3>
+              <Button
+                type={"primary"}
+                shape="round"
+                size="large"
+                onClick={() => {
+                  tx(writeContracts.Staker.reStart(120, 1));
+                }}
+              >
+                ♻️ Restart
+              </Button>
+              <Divider />
+            </div>
+>>>>>>> 377fba8... updated contract and config
 
             {/*
                 🎛 this scaffolding is full of commonly used components
