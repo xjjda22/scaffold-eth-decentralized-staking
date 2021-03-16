@@ -12,7 +12,7 @@ const pollBalance = async () => {
     }
   }
 };
-usePoller(pollBalance, 27777, address && provider );
+usePoller(pollBalance, pollTime || 37777, address && provider );
 
 return balance;
 }
