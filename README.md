@@ -19,6 +19,12 @@ git clone https://github.com/austintgriffith/scaffold-eth.git challenge-1-decent
 cd challenge-1-decentralized-staking
 git checkout challenge-1-decentralized-staking
 yarn install
+
+OR 
+
+git clone https://github.com/harryranakl/scaffold-eth-decentralized-staking.git 
+cd scaffold-eth-decentralized-staking
+yarn install
 ```
 
 🔏 Edit your smart contract `Staker.sol` in `packages/hardhat/contracts`
@@ -132,7 +138,6 @@ Hint: If the `address(this).balance` of the contract is over the `threshold` by 
 > 🎖 Show off your app by pasting the url in the [Challenge 1 telegram channel](https://t.me/joinchat/E6r91UFt4oMJlt01)
 
 ---
-
-> 👩‍🔬 Need a longer form tutorial to guide your coding? [Try this one!](https://github.com/btogzhan2000/scaffold-eth/tree/staking-app)
+### Dapp webiste: 🎛 http://eth-dapp-fun.surge.sh/ 
 
 > 💬 Problems, questions, comments on the stack? Post them to the [🏗 scaffold-eth developers chat](https://t.me/joinchat/F7nCRK3kI93PoCOk)
