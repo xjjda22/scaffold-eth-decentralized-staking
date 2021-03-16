@@ -1,3 +1,56 @@
+/*@import '~antd/dist/antd.dark.css';*/
+/*@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap');
+
+body{ 
+  /*font-family: Andale Mono, monospace;
+  font-family: Courier, monospace;
+  font-family: Lucidatypewriter, monospace;
+  font-family: Comic Sans, Comic Sans MS, cursive;
+  font-family: Monoton;
+  font-family: 'B612', sans-serif;
+  font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Overpass Mono', sans-serif;
+}
+
 .App {
   text-align: center;
+}
+
+.bottomAnim {
+  border: none;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /*background: #2851A6 url("http://i.stack.imgur.com/spmUM.gif") left repeat-x;*/
+  background-position: bottom;
+  z-index: 1000;
+}
+@media (max-height: 700px) {
+  .bottomAnim {
+    background-size: auto 65%;
+  }
+}
+.grad_newyork{
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+.grad_glasswater{
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+.grad_glasswater{
+    background-image: linear-gradient(to top, #dfe9f3 0%, #dee8f2 100%);
+}
+.grad_marblewall{
+    background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+}
+.grad_freshmilk{
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+}
+.grad_febink{
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+}
+.grad_deeprelief{
+    background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);
 }

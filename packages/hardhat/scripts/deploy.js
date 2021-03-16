@@ -10,16 +10,10 @@ const main = async () => {
   console.log("\n\n 📡 Deploying...\n");
 
   const exampleExternalContract = await deploy("ExampleExternalContract")
-<<<<<<< HEAD
-
-  const stakerContract = await deploy("Staker",[ exampleExternalContract.address ]) // <-- add in constructor args like line 16 vvvv
-
-=======
   //kovan-0xdBCD66e49B0a1292830192515a11953AB5Ffa23e
 
   const stakerContract = await deploy("Staker",[ exampleExternalContract.address ]) // <-- add in constructor args like line 16 vvvv
   //kovan-0x6E1c9D51BB47f280e5BA60E4223b6be17f22D820
->>>>>>> 377fba8... updated contract and config
 
   //const secondContract = await deploy("SecondContract")
 

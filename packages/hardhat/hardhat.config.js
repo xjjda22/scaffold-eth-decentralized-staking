@@ -48,23 +48,15 @@ module.exports = {
       */
     },
     rinkeby: {
-      url: "https://rinkeby.infura.io/v3/460f40a260564ac4a4f4b3fffb032dad", //<---- YOUR INFURA ID! (or it won't work)
+      url: "https://rinkeby.infura.io/v3/c387598aa08b48ebb6dc3296f6c198b7", //<---- YOUR INFURA ID! (or it won't work)
       accounts: {
-<<<<<<< HEAD
-        mnemonic: mnemonic(),
-=======
         mnemonic: mnemonic(''),
->>>>>>> 377fba8... updated contract and config
       },
     },
     kovan: {
-      url: "https://kovan.infura.io/v3/460f40a260564ac4a4f4b3fffb032dad", //<---- YOUR INFURA ID! (or it won't work)
+      url: "https://kovan.infura.io/v3/c387598aa08b48ebb6dc3296f6c198b7", //<---- YOUR INFURA ID! (or it won't work)
       accounts: {
-<<<<<<< HEAD
-        mnemonic: mnemonic(),
-=======
         mnemonic: mnemonic(''),
->>>>>>> 377fba8... updated contract and config
       },
     },
     mainnet: {
@@ -134,7 +126,7 @@ module.exports = {
   },
 };
 
-const DEBUG = false;
+const DEBUG = true;
 
 function debug(text) {
   if (DEBUG) {
