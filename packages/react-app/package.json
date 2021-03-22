@@ -77,6 +77,7 @@
     "ipfs": "node ./scripts/ipfs.js",
     "surge": "surge ./build",
     "s3": "node ./scripts/s3.js",
-    "ship": "yarn surge"
+    "ship": "yarn surge",
+    "prettier": "prettier --write \"**/*.jsx\""
   }
 }
