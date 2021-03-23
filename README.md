@@ -140,6 +140,6 @@ Hint: If the `address(this).balance` of the contract is over the `threshold` by 
 > 🎖 Show off your app by pasting the url in the [Challenge 1 telegram channel](https://t.me/joinchat/E6r91UFt4oMJlt01)
 
 ---
-### Dapp webiste: 🎛 http://eth-dapp-fun.surge.sh/ 
+### Demo Dapp website: 🎛 http://eth-dapp-fun.surge.sh/ 
 
 > 💬 Problems, questions, comments on the stack? Post them to the [🏗 scaffold-eth developers chat](https://t.me/joinchat/F7nCRK3kI93PoCOk)
