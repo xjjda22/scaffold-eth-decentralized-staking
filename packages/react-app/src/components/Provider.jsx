@@ -36,7 +36,7 @@ export default function Provider(props) {
         // eslint-disable-next-line no-empty
       } catch (e) {}
     }
-  }, 1377);
+  }, process.env.REACT_APP_POLLING || 33377);
 
   if (
     typeof props.provider === "undefined" ||
