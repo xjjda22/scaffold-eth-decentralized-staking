@@ -473,7 +473,7 @@ function App(props) {
         <a
           target="_blank"
           style={{ padding: 10, color: "#000" }}
-          href="https://github.com/harryranakl/scaffold-eth-decentralized-staking"
+          href="https://github.com/xjjda22/scaffold-eth-decentralized-staking"
         >
           🍴 decentralized-staking-eth Fork me!
         </a>
