@@ -22,7 +22,7 @@ yarn install
 
 OR 
 
-git clone https://github.com/harryranakl/scaffold-eth-decentralized-staking.git 
+git clone https://github.com/xjjda22/scaffold-eth-decentralized-staking.git 
 cd scaffold-eth-decentralized-staking
 yarn install
 ```
